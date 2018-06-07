@@ -4,6 +4,7 @@ import logging
 import os, os.path
 
 
+from EmailSender import BufferingSMTPHandler
 from NLP import Processor
 from output import save_json
 from crawlers import Scraper
@@ -57,6 +58,13 @@ def main():
     # add handler to logger object
     logger.addHandler(fh)
 
+    # add email handler to logger object
+    MAILHOST = 'smtp.gmail.com'
+    FROM = "pingankensho@gmail.com"
+    TO = ['xinyi.wu5@pactera.com']
+    SUBJECT = 'Logging email from NewsScraper'
+    logger.addHandler(BufferingSMTPHandler(MAILHOST, FROM, TO, SUBJECT, 1000))
+
     logger.info('Started')
 
     # Start scraping
@@ -87,6 +95,7 @@ def main():
     scrapers.quit()
 
     logger.info('Finished')
+    logging.shutdown()
 
 
 if __name__ == "__main__":
