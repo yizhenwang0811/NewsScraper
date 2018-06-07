@@ -50,7 +50,7 @@ def main():
     # Set logging
 
     logger = logging.getLogger("NewsScraper")
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)
     # create the logging file handler
     fh = logging.FileHandler(options.log_path + '/' + today + '.log')
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -91,6 +91,12 @@ def main():
     nlp_proc = Processor(scrapers.news_list)
     nlp_proc.summarize()
     save_json(nlp_proc.news_list, news_path + '/nytimes')
+    #nytimes daily newspaper
+    for date in date_list:
+        scrapers.scraper_nytimes_daily(date)
+        nlp_proc = Processor(scrapers.news_list)
+        nlp_proc.summarize()
+        save_json(nlp_proc.news_list, news_path + '/nytimes_' + dt.datetime.strftime(date, '%Y-%m-%d'))
 
     scrapers.quit()
 

@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 import datetime as dt
-from crawlers.nytimes import scraper_nytimes
+from crawlers.nytimes import scraper_nytimes, scraper_nytimes_daily
 from crawlers.reuters import scraper_reuters
 from crawlers.wallstreetjournal import scraper_wsj
 import logging
@@ -34,7 +34,7 @@ class Scraper:
             username_field.send_keys(username)
             password_field.send_keys(password)
             login_button.send_keys(Keys.ENTER)
-            self.driver.wait = WebDriverWait(self.driver, 30)  # waits up to 10 seconds before throwing a TimeoutException
+            self.driver.wait = WebDriverWait(self.driver, 30)  # waits up to 30 seconds before throwing a TimeoutException
             self.driver.wait.until(lambda driver: driver.current_url == 'https://www.wsj.com/')
         except:
             logger.exception("Error in initializing WSJ crawler")
@@ -45,9 +45,14 @@ class Scraper:
         logger.info('{} news scraped from Reuters'.format(len(self.list_news)))
 
     def scraper_nytimes(self):
-        logger.info("Start scraping NYTimes")
+        logger.info("Start scraping NYTimes on World News page")
         self.list_news = scraper_nytimes()
         logger.info('{} news scraped from NYTimes'.format(len(self.list_news)))
+
+    def scraper_nytimes_daily(self, date):
+        logger.info("Start scraping from NYTimes for " + dt.datetime.strftime(date, '%Y-%m-%d'))
+        self.list_news = scraper_nytimes_daily(date)
+        logger.info('{} news scraped from NYTimes for '.format(len(self.list_news)) + dt.datetime.strftime(date, '%Y-%m-%d'))
 
     def scraper_wsj(self, date):
         logger.info("Start scraping Wall Street Journal for " + dt.datetime.strftime(date, '%Y-%m-%d'))

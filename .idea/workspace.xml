@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="592d2b4a-852e-47df-8d5a-dbb88271dc42" name="Default" comment="" />
+    <list default="true" id="592d2b4a-852e-47df-8d5a-dbb88271dc42" name="Default" comment="Add function of sending email of logging information">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsScraper/NLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsScraper/NLP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsScraper/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsScraper/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsScraper/crawlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsScraper/crawlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsScraper/crawlers/nytimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsScraper/crawlers/nytimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsScraper/crawlers/reuters.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsScraper/crawlers/reuters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsScraper/crawlers/wallstreetjournal.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsScraper/crawlers/wallstreetjournal.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +22,8 @@
       <file leaf-file-name="__main__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NewsScraper/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="336">
+              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -26,8 +34,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="158">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -38,8 +46,8 @@
       <file leaf-file-name="nytimes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/nytimes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="35" column="81" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="81" />
+            <state relative-caret-position="51">
+              <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
               <folding>
                 <element signature="e#104#119#0" expanded="true" />
               </folding>
@@ -50,8 +58,8 @@
       <file leaf-file-name="reuters.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/reuters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="189">
+              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="e#93#108#0" expanded="true" />
               </folding>
@@ -62,8 +70,8 @@
       <file leaf-file-name="wallstreetjournal.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/wallstreetjournal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="495">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding>
                 <element signature="e#89#99#0" expanded="true" />
               </folding>
@@ -75,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/clean.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -83,17 +91,8 @@
       <file leaf-file-name="NLP.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewsScraper/NLP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewsScraper/output.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -112,6 +111,9 @@
       <find>datetime</find>
       <find>remove_words</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,11 +137,12 @@
         <option value="$PROJECT_DIR$/crawlers/reuters.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/NewsScraper/main.py" />
+        <option value="$PROJECT_DIR$/NewsScraper/email.py" />
         <option value="$PROJECT_DIR$/NewsScraper/NLP.py" />
-        <option value="$PROJECT_DIR$/NewsScraper/crawlers/reuters.py" />
-        <option value="$PROJECT_DIR$/NewsScraper/crawlers/nytimes.py" />
-        <option value="$PROJECT_DIR$/NewsScraper/crawlers/wallstreetjournal.py" />
         <option value="$PROJECT_DIR$/NewsScraper/crawlers/__init__.py" />
+        <option value="$PROJECT_DIR$/NewsScraper/crawlers/nytimes.py" />
+        <option value="$PROJECT_DIR$/NewsScraper/crawlers/reuters.py" />
+        <option value="$PROJECT_DIR$/NewsScraper/crawlers/wallstreetjournal.py" />
         <option value="$PROJECT_DIR$/NewsScraper/__main__.py" />
       </list>
     </option>
@@ -148,6 +151,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -166,12 +170,6 @@
               <item name="NewsScraper" type="462c0819:PsiDirectoryNode" />
               <item name="NewsScraper" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NewsScraper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsScraper" type="462c0819:PsiDirectoryNode" />
-              <item name="NewsScraper" type="462c0819:PsiDirectoryNode" />
-              <item name="crawlers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -279,20 +277,37 @@
       <option name="presentableId" value="Default" />
       <updated>1526923903381</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add function of sending email of logging information">
+      <created>1528406265658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528406265658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22291666" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50069445" side_tool="true" weight="0.32900944" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.25589624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591261" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5017618" side_tool="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4982382" weight="0.32969698" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989429" visible="true" weight="0.25939393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969698" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34551886" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,45 +316,47 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add function of sending email of logging information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add function of sending email of logging information" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NewsScraper/output.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsScraper/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/nytimes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -524,9 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/NewsScraper/crawler/web_scraping.py" />
     <entry file="file://$PROJECT_DIR$/NewsScraper/output.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -538,34 +552,68 @@
     <entry file="file://$PROJECT_DIR$/NewsScraper/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/clean.py">
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.6/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="234">
+          <caret line="873" column="8" selection-start-line="873" selection-start-column="8" selection-end-line="873" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsScraper/NLP.py">
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.6/logging/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="234">
+          <caret line="1214" column="8" selection-start-line="1214" selection-start-column="8" selection-end-line="1214" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsScraper/EmailSender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/reuters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="189">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="e#93#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/clean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsScraper/NLP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/wallstreetjournal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="495">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding>
             <element signature="e#89#99#0" expanded="true" />
           </folding>
@@ -574,28 +622,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/nytimes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="35" column="81" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="81" />
+        <state relative-caret-position="51">
+          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
           <folding>
             <element signature="e#104#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewsScraper/crawlers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NewsScraper/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="336">
+          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>

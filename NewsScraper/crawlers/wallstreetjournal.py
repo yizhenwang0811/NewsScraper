@@ -5,6 +5,7 @@ import bs4
 import datetime as dt
 import logging
 from crawlers.clean import clean_text
+from NLP import news_title_filter, news_summary_filter
 
 logger = logging.getLogger("NewsScraper.crawlers.wsj")
 
@@ -18,10 +19,16 @@ def scraper_wsj(driver, date):
         soup = bs4.BeautifulSoup(driver.page_source, 'lxml')
         for tag in soup.find('ul', {'class': 'newsItem'}).find_all('li'):
             title = clean_text(tag.find('a').get_text())
+            if not news_title_filter(title):
+                logger.debug('This news is not in interest based on title: {}'.format(title))
+                continue
             this_news = dict()
             this_news['title'] = title
             this_news['url'] = tag.find('a').get('href')
             this_news['summary'] = clean_text(tag.find('p').get_text())
+            if not news_summary_filter(this_news['summary']):
+                logger.debug('This news is not in interest based on summary: {}'.format(this_news['summary']))
+                continue
             try:
                 driver.get(this_news['url'])
                 art_soup = bs4.BeautifulSoup(driver.page_source, 'lxml')
