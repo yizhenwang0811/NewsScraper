@@ -1,0 +1,17 @@
+2018-06-06 09:44:53,030 - NewsScraper - INFO - Started
+2018-06-06 11:24:32,623 - NewsScraper - INFO - Started
+2018-06-06 11:25:41,147 - NewsScraper - INFO - Finished
+2018-06-06 11:30:17,315 - NewsScraper - INFO - Started
+2018-06-06 11:30:56,798 - NewsScraper - INFO - Finished
+2018-06-06 17:05:33,809 - NewsScraper - INFO - Started
+2018-06-06 17:05:33,810 - NewsScraper.crawlers - INFO - Initialize WSJ crawler
+2018-06-06 17:07:18,222 - NewsScraper.crawlers - INFO - Start scraping Reuters
+2018-06-06 17:07:30,777 - NewsScraper.crawlers - INFO - 10 news scraped from Reuters
+2018-06-06 17:07:30,985 - NewsScraper - INFO - Finished
+2018-06-06 17:10:04,198 - __main__ - INFO - Started
+2018-06-06 17:11:13,164 - __main__ - INFO - Finished
+2018-06-06 17:13:40,287 - NewsScraper - INFO - Started
+2018-06-06 17:13:40,287 - NewsScraper.crawlers - INFO - Initialize crawler
+2018-06-06 17:14:10,708 - NewsScraper.crawlers - INFO - Start scraping Reuters
+2018-06-06 17:14:32,356 - NewsScraper.crawlers - INFO - 10 news scraped from Reuters
+2018-06-06 17:14:32,488 - NewsScraper - INFO - Finished
